@@ -17,7 +17,7 @@ Finally, we extract saliency maps from the results to further assess and interro
 DeepMerge has 3 convolutional layers (with 3 pooling layers) and 3 dense layers, added after flattening. It also has dropout after each convolutional layer, as well as weight regularization in the first two dense layers.
 
 ### Prepare Datasets
-Images used can be found at https://doi.org/10.17909/t9-vqk6-pc80. Pristine and noisy images used in the paper can be found in pristine_X.npy and noisy_X.npy, respectively (label files: pristine_y.npy and noisy_y.npy). Raw (large) and resized images are also available for those who would like to try their own image formating and augmentation. Images we use have 2 filters (they mimic those available onboard the Hubble Space Telescope). For use with more complex neural networks we also have 3-filter files available (SB00_augmented_3FILT.npy and SB25_augmented_3FILT.npy)
+Images used can be found at https://doi.org/10.17909/t9-vqk6-pc80. Pristine and noisy images used in the paper can be found in pristine_X_2filt.npy and noisy_X_2filt.npy, respectively (label files: pristine_y.npy and noisy_y.npy). Raw (large) and resized images are also available for those who would like to try their own image formating and augmentation. Images we use have 2 filters (they mimic those available onboard the Hubble Space Telescope). For use with more complex neural networks we also have 3-filter files available (pristine_X.npy and noisy_X.npy)
 
 ### Training
 Training is performed with early stopping (with validation loss being monitored). To run training and plot training and classification diagnostics use DeepMerge.ipynb and DeepMerge.ipynb files. 

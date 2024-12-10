@@ -45,4 +45,22 @@ pip install -r requirements.txt
 
 ### References
 If you use this code, please cite our paper:
-....
+```bibtex
+@ARTICLE{2020A&C....3200390C,
+       author = {{{\'C}iprijanovi{\'c}}, A. and {Snyder}, G.~F. and {Nord}, B. and {Peek}, J.~E.~G.},
+        title = "{DeepMerge: Classifying high-redshift merging galaxies with deep neural networks}",
+      journal = {Astronomy and Computing},
+     keywords = {Merging galaxies, Cosmology, Deep learning, Convolutional neural networks, Astrophysics - Astrophysics of Galaxies, Astrophysics - Instrumentation and Methods for Astrophysics, Computer Science - Computer Vision and Pattern Recognition},
+         year = 2020,
+        month = jul,
+       volume = {32},
+          eid = {100390},
+        pages = {100390},
+          doi = {10.1016/j.ascom.2020.100390},
+archivePrefix = {arXiv},
+       eprint = {2004.11981},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020A&C....3200390C},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+```
